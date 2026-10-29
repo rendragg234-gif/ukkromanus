@@ -1,0 +1,40 @@
+# NOTE: folder vendor/dompdf TIDAK di-ignore.
+# Library Dompdf ikut ter-commit agar project langsung jalan
+# di PC lain (mis. PC sekolah) tanpa perlu Composer.
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+error_log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Environment
+.env
+.env.local
+
+# Database backup
+*.sql.backup
+*.sql~
+
+# Upload folder (if any)
+uploads/
+files/
+
+# Cache
+cache/
+tmp/
